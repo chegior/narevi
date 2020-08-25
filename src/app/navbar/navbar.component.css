@@ -1,0 +1,26 @@
+.brand{
+    text-transform:lowercase;
+    margin-left:30px;
+}
+.bg-dark{
+    opacity:0.7;
+}
+
+.navbar-nav a{
+    font-size:0.9rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left:7px;
+    margin-right:7px;
+}
+
+.navbar-nav a:hover{
+    color: rgb(255,180,40);
+   
+}
+
+.navbar-nav a:active{
+
+    color: rgb(185, 120, 10);
+    border-bottom: 1.5px solid  rgb(185, 120, 10);
+}
