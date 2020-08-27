@@ -27,14 +27,19 @@
     align-items: center;
     margin-bottom: 2rem;
 }
+.whoWeAre h3{
+    font-family: 'Squada One';
+    font-size:2rem;
+}
 .whoWeAre img{
     margin-right: 15px;
 }
 .whatWeDo h1{
-    font-weight:bolder;
+    font-family: 'Dancing Script', cursive;
 }
 .howWeDo p{
     text-align: left;
+    font-family:'Kanit';
     margin-right:30%;
 }
 .buttonAction{
