@@ -1,0 +1,13 @@
+.jumbotron{
+    margin-bottom: 0;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.container{
+    font-family:'Kanit';
+   
+}
+h1{
+    font-weight:bolder;
+}

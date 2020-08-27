@@ -1,0 +1,90 @@
+.carousel-inner::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.carousel-caption {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);  
+}
+
+.txtBanner{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    text-shadow: 1px 2px 1px 2px rgb(0,0,0);
+}
+.whoWeAre{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.whoWeAre img{
+    margin-right: 15px;
+}
+.whatWeDo h1{
+    font-weight:bolder;
+}
+.howWeDo p{
+    text-align: left;
+    margin-right:30%;
+}
+.buttonAction{
+    margin-top: 1.5rem;;
+}
+
+.buttonAction button:hover{
+    border:none;
+    background-color:rgb(233, 159, 0);
+    color:rgb(255, 255, 255);
+}
+.buttonAction2{
+    display:none;
+}
+
+@media (max-width:768px){
+    .txtBanner{
+        align-items: center;
+
+    }
+    .buttonAction2{
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        width:100%;
+        color:rgb(233, 159, 0);
+
+    }
+    .buttonAction2 a{
+        color: inherit;
+    }
+    .buttonAction2:hover{
+        color:rgb(233, 100, 0);
+    }
+    .whoWeAre{
+        margin-bottom:0px;
+    }
+    .whoWeAre h3{
+        font-size:1.2rem;
+        margin:0;
+    }
+
+    .whoWeAre img{
+        margin:0;
+    }
+    .whatWeDo {
+        display:none;
+    }
+    .howWeDo {
+        display:none;
+    }
+    
+}

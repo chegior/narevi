@@ -1,11 +1,26 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inner">
-    <a class="brand navbar-brand" routerLink="">
-        <h2>Narevi</h2>
-    </a>
-    <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" routerLink="#" routerLinkActive="active">Inicio <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" routerLink="#" routerLinkActive="active">Nosotros</a>
-        <a class="nav-item nav-link" routerLink="#" routerLinkActive="active">Servicios</a>
-        <a class="nav-item nav-link" routerLink="#" routerLinkActive="active">Contacto</a>
-    </div>   
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-inner sticky-top">
+    <div class="container-fluid">
+        <a class="brand navbar-brand" routerLink="inicio">
+            <h2>Narevi</h2>
+        </a>
+        <button class="navbar-toggler" #toggler type="button" data-toggle="collapse" data-target="#navbarTogglerNarevi" aria-controls="navbarTogglerNarevi" aria-expanded='false' >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerNarevi">
+            <div class="navbar-nav ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" routerLink="inicio" routerLinkActive="active">Inicio </a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" routerLink="nosotros" routerLinkActive="active">Nosotros</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" routerLink="#" routerLinkActive="active">Servicios</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" routerLink="#" routerLinkActive="active">Contacto</a>
+                </li>
+            </div>   
+        </div>
+    </div>
 </nav>
