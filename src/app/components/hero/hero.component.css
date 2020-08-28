@@ -56,12 +56,15 @@
 }
 
 @media (max-width:768px){
+    .buttonAction{
+        display:none;
+    }
     .txtBanner{
         align-items: center;
 
     }
     .buttonAction2{
-        display: flex;
+        display: none;
         flex-flow: column;
         justify-items: center;
         width:100%;
