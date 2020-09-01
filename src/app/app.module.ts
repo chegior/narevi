@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { PromoComponent } from './components/promo/promo.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ServiciosComponent } from './components/servicios/servicios.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     MainComponent,
     NavbarComponent,
     NosotrosComponent,
-    PromoComponent
+    PromoComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,

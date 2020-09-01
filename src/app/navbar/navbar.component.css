@@ -1,4 +1,6 @@
-
+.bg-dark{
+    opacity:80%;
+}
 .brand{
     text-transform:lowercase;
     margin-left:30px;
